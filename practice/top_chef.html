@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Page</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, sans-serif; max-width: 900px; margin: 0 auto; background-color:#ffb1ed}
+    img { display: block; width: 100%; background: #ddd; }
+    h2 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+    h3 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+    p { color: #555; line-height: 1.6; margin-bottom: 0.5rem; }
+    button { padding: 0.5rem 1.5rem; border: none; border-radius: 5px; background: #333; color: #fff; cursor: pointer; }
+    nav { display: flex; gap: 1rem; }
+    nav a { text-decoration: none; color: inherit; }
+    article { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+    /* Layout */
+    .c1 {
+      padding: 1rem;
+    }
+    .c2 {
+      aspect-ratio: 8 / 3;
+    }
+    .c3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 400px;
+      padding: 1rem;
+    }
+    .c4 {
+      padding: 1rem;
+    }
+    .c5 {
+      padding: 1rem;
+    }
+    .c6 {
+      width: 65%;
+      aspect-ratio: 4 / 3;
+    }
+    .c7 {
+      display: grid;
+      grid:
+        '. . .' 500px
+        'A A A' auto
+        / 1fr 1fr 1fr;
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .c8 {
+      padding: 0.5rem;
+    }
+    .c9 {
+      width: 65%;
+      aspect-ratio: 4 / 3;
+    }
+    .c10 {
+      padding: 0.5rem;
+    }
+    .c11 {
+      width: 65%;
+      aspect-ratio: 4 / 3;
+    }
+    .c12 {
+      padding: 0.5rem;
+    }
+    .c13 {
+      width: 65%;
+      aspect-ratio: 4 / 3;
+    }
+    .c14 {
+      grid-area: A;
+      padding: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+<header class="c1">
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Order</a>
+    <a href="#">Contact</a>
+  </nav>
+  <section>
+    <img src="placeholder.jpg" alt="" class="c2">
+  </section>
+</header>
+<main class="c3">
+  <div class="c4">
+    <h2>Grampa's Glizzies</h2>
+    <p>Founded by Nico as a tribute to his grandfather—a role model who approached everything with purpose—Grandpa’s Glizzys was built on the idea that simple, classic comfort food can bring people together. Whether Nico is manning the grill or kicking back for a round of Gin Rummy (his grandfather's favorite game), the mission remains the same: serve up top-tier dogs and foster genuine connections across the Austin community.</p>
+
+    <button>ORDER NOW</button>
+  </div>
+  <div class="c5">
+    <img src="placeholder.jpg" alt="" class="c6">
+  </div>
+</main>
+<section class="c7">
+  <article class="c8">
+    <img src="placeholder.jpg" alt="" class="c9">
+    <h2>Breakfast</h2>
+    <p>The Morning Dog: A toasted bun with a grilled breakfast sausage link or hot dog, scrambled eggs, melted cheddar cheese, and crispy bacon strips. </p>
+
+    <p>The Half-Smoke And Egg: A local specialty half-smoke topped with a fried egg and cheese on a soft roll.</p>
+
+    <p>Breakfast Bagel or Biscuit Sandwiches: Classic egg, cheese, and a choice of bacon, sausage, or ham served on a fresh bakery bagel or house-made biscuit.</p>
+
+    <p>Side of Home Fries / Hash Browns: Crispy potato wedges or home fries.</p>
+
+<p>Coffee And Drink Combo: Hot drip coffee or cold brew paired with a morning pastry or cookie deal.</p>
+  </article>
+  <article class="c10">
+    <img src="placeholder.jpg" alt="" class="c11">
+    <h2>Lunch</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</p>
+  </article>
+  <article class="c12">
+    <img src="placeholder.jpg" alt="" class="c13">
+    <h2>Dinner</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</p>
+  </article>
+  <footer class="c14">
+    <h3>Sub-heading</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</p>
+  </footer>
+</section>
+  <script>
+  (function() {
+    var s = document.createElement("script");
+    s.src = "https://cdn.jsdelivr.net/gh/gracehoppercenter/validate@1.0.5/validate.js";
+    s.async = false;
+    document.head.appendChild(s);
+  })();
+  </script>
+</body>
+</html>
